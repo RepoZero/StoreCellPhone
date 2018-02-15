@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/Store_add_dialog_SpnCategory"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/Store_add_dialog_EdtName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Model"/>
+
+    <EditText
+        android:id="@+id/Store_add_dialog_EdtNumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Number"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/Store_add_dialog_BtnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add" />
+
+</LinearLayout>
